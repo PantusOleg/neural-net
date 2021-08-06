@@ -53,7 +53,7 @@ fn main() {
             targets[digit as usize] = 1.0;
 
             let outputs = net.feed_forward(&inputs[img_index]);
-            //println!("{:?}", outputs);
+          
             let mut max_digit: i8 = 0;
             let mut max_digit_weight = -1.0;
 
